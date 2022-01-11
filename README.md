@@ -1,6 +1,11 @@
+
+
 # KoroImages
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+
+## Add Key
+To use this image search, add your unsplash API Key to environment.ts
 
 ## Development server
 
