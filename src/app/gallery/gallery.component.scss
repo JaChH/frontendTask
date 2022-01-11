@@ -1,0 +1,28 @@
+.gallery {
+	column-count: 3;
+	column-width: 33%;
+}
+
+
+.hover-zoom {
+	img {
+	  transition: all 0.3s linear
+	}
+	&:hover {
+	  img {
+		transform: scale(0.9)
+	  }
+	}
+}
+
+
+.overlay {
+	position: relative;
+	opacity: 1;
+	transition: .5s ease;
+	&:hover{
+		opacity: 0.5;
+	}
+}
+
+
